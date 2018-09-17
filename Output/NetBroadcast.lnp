@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"..\output\canpro.o"
+"..\output\config.o"
+"..\output\main.o"
+"..\output\netpro.o"
+"..\output\public.o"
+"..\output\voicepro.o"
+"..\output\udp.o"
+"..\output\can.o"
+"..\output\cpu.o"
+"..\output\fminit.o"
+"..\output\uart.o"
+"..\output\w5500.o"
+"..\output\sd2068.o"
+"..\output\ipd_zjm.o"
+"..\output\pekingpower.o"
+"..\output\devicemanger.o"
+"..\output\switcher.o"
+"..\output\sys.o"
+"..\output\stm32f10x_lib.o"
+"..\output\startup_stm32f10x_hd.o"
+--strict --scatter "..\Output\NetBroadcast.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\List\NetBroadcast.map" -o ..\Output\NetBroadcast.axf

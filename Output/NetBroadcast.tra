@@ -1,0 +1,39 @@
+*** Creating Trace Output File '..\Output\NetBroadcast.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\canpro.o"'
+### List of Objects: adding '"..\output\config.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\netpro.o"'
+### List of Objects: adding '"..\output\public.o"'
+### List of Objects: adding '"..\output\voicepro.o"'
+### List of Objects: adding '"..\output\udp.o"'
+### List of Objects: adding '"..\output\can.o"'
+### List of Objects: adding '"..\output\cpu.o"'
+### List of Objects: adding '"..\output\fminit.o"'
+### List of Objects: adding '"..\output\uart.o"'
+### List of Objects: adding '"..\output\w5500.o"'
+### List of Objects: adding '"..\output\sd2068.o"'
+### List of Objects: adding '"..\output\ipd_zjm.o"'
+### List of Objects: adding '"..\output\pekingpower.o"'
+### List of Objects: adding '"..\output\devicemanger.o"'
+### List of Objects: adding '"..\output\switcher.o"'
+### List of Objects: adding '"..\output\sys.o"'
+### List of Objects: adding '"..\output\stm32f10x_lib.o"'
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\canpro.o" "..\output\config.o" "..\output\main.o" "..\output\netpro.o" "..\output\public.o" "..\output\voicepro.o" "..\output\udp.o" "..\output\can.o" "..\output\cpu.o" "..\output\fminit.o" "..\output\uart.o" "..\output\w5500.o" "..\output\sd2068.o" "..\output\ipd_zjm.o" "..\output\pekingpower.o" "..\output\devicemanger.o" "..\output\switcher.o" "..\output\sys.o" "..\output\stm32f10x_lib.o" "..\output\startup_stm32f10x_hd.o" 
+--strict --scatter "..\Output\NetBroadcast.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\List\NetBroadcast.map" -o ..\Output\NetBroadcast.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\NetBroadcast.axf'
+### ADS-LD Command File: '..\Output\NetBroadcast.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\NetBroadcast.lnp', Handle=0x00000348
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\NetBroadcast.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
