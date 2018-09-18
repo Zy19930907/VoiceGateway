@@ -31,7 +31,7 @@ I (..\Device\DeviceManger.h)(0x5B9C47CB)
 I (..\Device\IPD_ZJM.h)(0x5B21C990)
 I (..\Device\PekingPower.h)(0x5B0557CC)
 I (..\Device\Switcher.h)(0x5B9C47CB)
-F (..\App\Config.c)(0x5B9E8FFE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Header -I ..\Lib\Header\inc\STM32F10x -I ..\Device -I ..\Tools-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\output\config.o --omf_browse ..\output\config.crf --depend ..\output\config.d)
+F (..\App\Config.c)(0x5B9F7950)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Header -I ..\Lib\Header\inc\STM32F10x -I ..\Device -I ..\Tools-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\output\config.o --omf_browse ..\output\config.crf --depend ..\output\config.d)
 I (..\Header\FmInit.h)(0x5A28C681)
 I (..\Header\Public.h)(0x5B9E8FEE)
 I (..\Lib\Header\inc\STM32F10x\stm32f10x_lib.h)(0x4BB19F6A)
@@ -57,7 +57,7 @@ I (..\Header\Config.h)(0x5AEE7961)
 I (..\Header\W5500.h)(0x5AFC0BC9)
 I (..\Header\SD2068.h)(0x5AFA6596)
 I (..\Header\CanPro.h)(0x5B9D3286)
-F (..\App\main.c)(0x5B9E18E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Header -I ..\Lib\Header\inc\STM32F10x -I ..\Device -I ..\Tools-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+F (..\App\main.c)(0x5B9F6420)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Header -I ..\Lib\Header\inc\STM32F10x -I ..\Device -I ..\Tools-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F10x-D__UVISION_VERSION="525"-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
 I (..\Lib\Header\inc\STM32F10x\stm32f10x_lib.h)(0x4BB19F6A)
 I (..\Lib\Header\inc\STM32F10x\stm32f10x_map.h)(0x4BB19F6A)
 I (..\Lib\Header\inc\STM32F10x\stm32f10x_conf.h)(0x5A03F418)

@@ -493,7 +493,7 @@ void UpdateDeviceInfo(void)
 //				return;
 //		}
 //		
-		if((Device[i].Name == 0x28) || (Device[i].Name == 0x24)) //广播和读卡器按照原有离线管理机制
+		if((Device[i].Name == 0x28) || (Device[i].Name == 0x24) || (Device[i].Name == 0xFF)) //广播和读卡器按照原有离线管理机制
 		{
 			Device[i].Status |= 0x80;
 			Device[i].Flag &= ~0x02;

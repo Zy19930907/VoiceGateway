@@ -30,7 +30,7 @@ void FlashRunLed(u8 times)
 
 int main(void)
 {
-//	SCB->VTOR = 0x08010000;
+	//SCB->VTOR = 0x08010000;
 	CpuInit();
 	SYS_TICK = 0;
 	while(MsTickDiff(LedTick) < 1000);
